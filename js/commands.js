@@ -1,4 +1,4 @@
-var youtube = "https://www.youtube.com/channel/UC1CtpaQepwYhlq3cq2pdRhg";
+var youtube = "https://youtu.be/r0kyEFPMvDw";
 var twitter = "https://twitter.com/arpit_khanulia";
 var password = "narutouzumaki";
 var linkedin = "https://www.linkedin.com/in/arpit-khanulia-1a6205200/";
@@ -12,11 +12,11 @@ whois = [
     "also known by the alias 'firedragon,' is a B.Tech student at Quantum University with ",
     'expertise in <span class= \"command3\"> data structures and algorithms. </span>',
     "                                                                                      ", 
-    "With over <span class= \"command3\">500+ problems</span>  solved across platforms such as <span class= \"command3\">LeetCode, GeeksforGeeks, and Codechef</span> ", 
+    "With over <span class= \"command3\">700+ problems</span>  solved across platforms such as <span class= \"command3\">LeetCode, GeeksforGeeks, and Codechef</span> ", 
     "he has a strong foundation in problem-solving skills.", 
     "                                                                                      ", 
     "Arpit has also developed skills in <span class= \"command3\"> web development using Node.js and Express</span>,", 
-    "building several projects like a <span class= \"command3\">daily journal and to-do list</span> .",
+    "building several projects like a <span class= \"command3\">daily journal and speed typing test website</span> .",
     "                                                                                      ", 
     "With a passion for learning and an ability to quickly grasp new concepts,", 
     "Arpit is a valuable asset to any team.",
