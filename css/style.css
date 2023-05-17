@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 15px 20px;
+    min-height: 99%;
+    width: 100%;
+    min-width: 550px;
+    color: #4CDFD8;
+    background: #001927;
+    /* background: #010001; */
+    font-family: 'Share Tech Mono', monospace;
+
+
+    font: 16px/1.2;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+::selection {
+    color: #211830;
+    background-color: #FEC91C;
+}
+
+::-moz-selection {
+    color: #211830;
+    background-color: #519975;
+}
+
+textarea {
+    left: -1000px;
+    position: absolute;
+}
+
+b {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Cursor Start */
+
+.cursor {
+    font-size: 12px;
+    color: #15FF00;
+    background-color: #15FF00;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#command {
+    cursor: text;
+    height: 50px;
+    color: #15FF00;
+}
+
+#liner {
+    line-height: 1.3em;
+    margin-top: -2px;
+    animation: show 0.5s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+}
+
+#liner::before {
+    color: #F58021;
+
+    padding-bottom: 70px;
+    content: "firedragon:~/ visitor$";
+}
+
+#liner.password::before {
+    content: "Password:";
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Cursor End */
+
+p {
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.5s steps(30, end);
+}
+
+.no-animation {
+    animation: typing 0 steps(30, end);
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.index {
+    color: #DCDCCC;
+}
+
+.color2 {
+    color: #ffff;
+}
+
+.command {
+    color: #15FF00;
+    /* text-shadow: 0 0 5px #15FF00; */
+}
+.command2 {
+    color: #5CDFD8;
+}
+.command3 {
+    color: #FFD429;
+}
+
+.error {
+    color: #B89076;
+}
+
+.white {
+    color: #fff;
+}
+
+.inherit,
+a {
+    color: #FEC91C;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+p a:hover {
+    background: #73ABAD;
+    color: #211830;
+}
+
+a:focus {
+    outline: 0;
+}
+
+
+.container{
+
+    display: flex;
+}
+
+
+
+
+
+.footer {
+
+
+    position: fixed;
+    /* border-top: solid 1px #5CDFD8; */
+    bottom: 0;
+    color: #999;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 3;
+    padding: 17px 0 15px;
+    background-color: #1C222D;
+    font-size: 16px
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0 0 0 16px;
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 16px
+}
+
+.footer li:last-child {
+    margin-right: 0
+}
+
+.footer a {
+    color: #d7d7d7;
+    text-decoration: none
+}
+
+.footer a:hover {
+    color: #35bdb8
+}
+
+
+.content {
+    padding-left: 130px;
+  }
+
+
+@media only screen and (min-width:1024px) {
+    .logo {
+
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #1C222D;
+        /* padding: 20px; */
+        border-right: 1px solid #01E981;
+
+        height: 100%;
+        text-align: center;
+        width: 140px
+    }
+    .logo img {
+        margin-top: 25%;
+        width: 55%
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .logo img {
+        margin-left: 3%;
+        margin-top: 3%;
+        height: 3%;
+        width: 7%
+    }
+}
+
+
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img{
+
+    border-radius: 4px;
+}
