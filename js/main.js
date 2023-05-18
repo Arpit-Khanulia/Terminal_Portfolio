@@ -20,7 +20,7 @@ window.addEventListener("keyup", enterKey);
 //     "%cYou hacked my password!😠",
 //     "color: #04ff00; font-weight: bold; font-size: 24px;"
 // );
-console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
+console.log("%cwhat is that logo ?", "color: grey");
 
 //init
 textarea.value = "";

@@ -1,6 +1,6 @@
 var youtube = "https://youtu.be/r0kyEFPMvDw";
 var twitter = "https://twitter.com/arpit_khanulia";
-var password = "narutouzumaki";
+var password = "taskforce141";
 var linkedin = "https://www.linkedin.com/in/arpit-khanulia-1a6205200/";
 var instagram = "https://www.instagram.com/fire_dr4gon/";
 var github = "https://github.com/Arpit-Khanulia";
