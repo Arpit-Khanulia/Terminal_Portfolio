@@ -82,11 +82,11 @@ function commander(cmd) {
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
-        case "whois":
-            loopLines(whois, "color2 margin", 80);
-            break;
         case "whoami":
             loopLines(whoami, "color2 margin", 80);
+            break;
+        case "coding_profiles":
+            loopLines(coding_profiles, "color2 margin", 80);
             break;
         case "ls":
             loopLines(ls, "command3 margin", 80);
@@ -167,6 +167,22 @@ function commander(cmd) {
         case "github":
             addLine("Opening GitHub...", "color2", 0);
             newTab(github);
+            break;
+        case "resume":
+            addLine("Opening Resume...", "color2", 0);
+            newTab(resume);
+            break;
+        case "leetcode":
+            addLine("Opening leetcode...", "color2", 0);
+            newTab(Leetcode);
+            break;
+        case "codechef":
+            addLine("Opening codechef...", "color2", 0);
+            newTab(CodeChef);
+            break;
+        case "geeksforgeeks":
+            addLine("Opening geeksforgeeks...", "color2", 0);
+            newTab(Geeksforgeeks);
             break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);

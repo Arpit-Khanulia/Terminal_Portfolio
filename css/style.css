@@ -5,7 +5,7 @@ body {
     width: 100%;
     min-width: 550px;
     color: #4CDFD8;
-    background: #001927;
+    background: #05141B;
     /* background: #010001; */
     font-family: 'Share Tech Mono', monospace;
 
@@ -232,7 +232,7 @@ a:focus {
         top: 0;
         left: 0;
         bottom: 0;
-        background-color: #001927;
+        background-color: #05141B;
         /* padding: 20px; */
         border-right: 1px solid #01E981;
 
