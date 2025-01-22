@@ -172,6 +172,10 @@ function commander(cmd) {
             addLine("Opening Resume...", "color2", 0);
             newTab(resume);
             break;
+        case "gui":
+            addLine("Opening gui portfolio...", "color2", 0);
+            newTab(gui);
+            break;
         case "leetcode":
             addLine("Opening leetcode...", "color2", 0);
             newTab(Leetcode);

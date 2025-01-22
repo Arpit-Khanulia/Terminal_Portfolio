@@ -15,6 +15,7 @@ var Backtrackinggithub = "https://github.com/Arpit-Khanulia/BacktracKING";
 
 var Dailyjournal = "https://daily-journal-yj3p.onrender.com";
 var Dailyjournalgithub = "https://github.com/Arpit-Khanulia/Daily-journal";
+var gui = "https://firedr4gon.github.io/portfolio/";
 
 var resume = "https://docs.google.com/document/d/12b3dzvRiTIBekdyKsxHp29eI8QsxBPuTVg8llh1JD70/edit?pli=1&tab=t.0";
 
@@ -140,6 +141,7 @@ help = [
     '<span class="command">email</span>           Do not email me',
     // '<span class="command">video</span>           View YouTube videos',
     '<span class="command">history</span>         View command history',
+    '<span class="command">gui</span>             graphical user interface',
     '<span class="command">help</span>            You obviously already know what this does',
     '<span class="command">clear</span>           Clear terminal',
     '<span class="command">secret</span>          Find the password',
