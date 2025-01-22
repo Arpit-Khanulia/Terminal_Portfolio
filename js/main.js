@@ -20,7 +20,7 @@ window.addEventListener("keyup", enterKey);
 //     "%cYou hacked my password!😠",
 //     "color: #04ff00; font-weight: bold; font-size: 24px;"
 // );
-console.log("%cwhat is that logo ?", "color: grey");
+console.log("%cwho is the GOAT ?", "color: grey");
 
 //init
 textarea.value = "";
@@ -103,10 +103,10 @@ function commander(cmd) {
         case "ls -a":
             loopLines(lsa, "color2 margin", 80);
             break;
-        case "video":
-            addLine("Opening YouTube...", "color2", 80);
-            newTab(youtube);
-            break;
+        // case "video":
+        //     addLine("Opening YouTube...", "color2", 80);
+        //     newTab(youtube);
+        //     break;
         case "sudo su":
             addLine("Oh no, you're not admin...", "color2", 80);
             setTimeout(function() {
